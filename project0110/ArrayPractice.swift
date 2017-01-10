@@ -28,10 +28,9 @@ struct ArrayPractice {
                 tempArray.append(xLoop)
             }
             resultArray.append(tempArray)
+        }
+        return resultArray        
 }
-return resultArray
-
-    }
 
     func fillArray (lines : Int ) -> Array<Array<Int>> {
         var resultArray1 = Array<Array<Int>> ()
@@ -46,8 +45,31 @@ return resultArray
 return resultArray1
 }
 
+    
+    func fillArray1 (lines : Int) -> Array<Array<Int>> {
+        var resultArray2 = Array<Array<Int>> ()
+        for A in 1...lines {
+            var fillArray1 = Array<Int> ()
+            var B = 1
+            for nLoop in A*5-4...A*5 {
+                if (B <= A){
+                    fillArray1.append(nLoop)}
+                B += 1
+            }
+            resultArray2.append(fillArray1)
+        }
+        return resultArray2
+        
+      }
+    
 }
 
 
+    
+  //  func fillArray3() -> Array<Array<Int>> {
+  //      var resultArray = Array<Array<>> ()
+  //      for yLoop in 1...5 {
+   //         var tempArray
 
- 
+
+

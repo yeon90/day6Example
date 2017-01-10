@@ -31,6 +31,8 @@ print()
 
 var myArray = ArrayPractice()
 myArray.printArray(array:myArray.fillArray(lines : 5))
+print()
 
+myArray.printArray(array:myArray.fillArray1(lines : 5))
 
 
