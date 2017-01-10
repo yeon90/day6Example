@@ -1,8 +1,8 @@
 # Day6 
 ---
-##..* module
+##* module
 ### import - new file - new struct - new func - using in main.swift
 #### practice  : InterestManager sturct
 ### factorial func 
 ### fibonacci
-##..* Array 
+##* Array 
