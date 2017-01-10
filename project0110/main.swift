@@ -26,3 +26,11 @@ testInterest( unitDay :1)
 let arrayPractice = ArrayPractice()
 
 arrayPractice.printArray(array:arrayPractice.tempArray(lines:5))
+
+print()
+
+var myArray = ArrayPractice()
+myArray.printArray(array:myArray.fillArray(lines : 5))
+
+
+

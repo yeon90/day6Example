@@ -30,8 +30,24 @@ struct ArrayPractice {
             resultArray.append(tempArray)
 }
 return resultArray
+
+    }
+
+    func fillArray (lines : Int ) -> Array<Array<Int>> {
+        var resultArray1 = Array<Array<Int>> ()
+       
+        for B in 1...lines {
+            var fillArray = Array<Int> ()
+            for Loop in (5*B-4...6*B-5) {
+                fillArray.append(Loop)
+            }
+            resultArray1.append(fillArray)
+        }
+return resultArray1
 }
+
 }
+
 
 
  
