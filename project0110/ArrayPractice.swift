@@ -94,9 +94,19 @@ return resultArray1
     
  
     func printArray(array:Array<Array<Bool>>, newChar:Character) {
+        for innerArray in array {
+            for item in innerArray {
+                if item { print (newChar, terminator : "")
+                }
+                else { print(" ", terminator : "")
+                }
+            }
+            print()
         
-        
+        }
+    
     }
+
 }
 
 

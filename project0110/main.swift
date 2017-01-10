@@ -43,6 +43,7 @@ myArray.printArray1(array:myArray.setBoolArray(lines :7))
 
 print()
 
+myArray.printArray(array: myArray.setBoolArray(lines :7), newChar: "$")
 
 
 
