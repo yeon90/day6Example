@@ -30,9 +30,21 @@ arrayPractice.printArray(array:arrayPractice.tempArray(lines:5))
 print()
 
 var myArray = ArrayPractice()
+
 myArray.printArray(array:myArray.fillArray(lines : 5))
+
 print()
 
 myArray.printArray(array:myArray.fillArray1(lines : 5))
+
+print()
+
+myArray.printArray1(array:myArray.setBoolArray(lines :7))
+
+print()
+
+
+
+
 
 

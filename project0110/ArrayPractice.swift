@@ -9,6 +9,7 @@
 import Foundation
 
 struct ArrayPractice {
+    
     func printArray(array : Array<Array<Int>>) {
         for innerArray in array {
             for item in innerArray {
@@ -62,12 +63,47 @@ return resultArray1
         
       }
     
+    func setBoolArray(lines : Int) -> Array<Array<Bool>> {
+        var resultArray = Array<Array<Bool>> ()
+        for A in 1...lines {
+            var fillArray1 = Array<Bool> ()
+            var B = lines
+            for _ in 1...lines {
+                if (A < B ){
+                  fillArray1.append(false)}
+                else if ( B <= A) {
+                   fillArray1.append (true)
+                }
+                B -= 1
+            }
+            resultArray.append(fillArray1)
+        }
+        return resultArray
+    }
+
+    func printArray1(array : Array<Array<Bool>>) {
+        for innerArray in array {
+            for item in innerArray {
+                print (item, terminator : " ")
+                
+            }
+            print()
+        }
+        
+    }
+    
+ 
+    func printArray(array:Array<Array<Bool>>, newChar:Character) {
+        
+        
+    }
 }
+
 
 
     
   //  func fillArray3() -> Array<Array<Int>> {
-  //      var resultArray = Array<Array<>> ()
+  //      var resultArray = Array<Array<Int>> ()
   //      for yLoop in 1...5 {
    //         var tempArray
 
