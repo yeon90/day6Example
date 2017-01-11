@@ -12,6 +12,8 @@
 		037045A71E25E12600FE6BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037045A51E25E12600FE6BBE /* Main.storyboard */; };
 		037045A91E25E12600FE6BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037045A81E25E12600FE6BBE /* Assets.xcassets */; };
 		037045AC1E25E12600FE6BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037045AA1E25E12600FE6BBE /* LaunchScreen.storyboard */; };
+		037045B51E26109700FE6BBE /* candleOff.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 037045B31E26109700FE6BBE /* candleOff.jpeg */; };
+		037045B61E26109700FE6BBE /* candleOn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 037045B41E26109700FE6BBE /* candleOn.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		037045A81E25E12600FE6BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		037045AB1E25E12600FE6BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		037045AD1E25E12600FE6BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037045B31E26109700FE6BBE /* candleOff.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candleOff.jpeg; sourceTree = "<group>"; };
+		037045B41E26109700FE6BBE /* candleOn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candleOn.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				037045A51E25E12600FE6BBE /* Main.storyboard */,
 				037045A81E25E12600FE6BBE /* Assets.xcassets */,
 				037045AA1E25E12600FE6BBE /* LaunchScreen.storyboard */,
+				037045B41E26109700FE6BBE /* candleOn.jpeg */,
+				037045B31E26109700FE6BBE /* candleOff.jpeg */,
 				037045AD1E25E12600FE6BBE /* Info.plist */,
 			);
 			path = MyCandle;
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037045B51E26109700FE6BBE /* candleOff.jpeg in Resources */,
 				037045AC1E25E12600FE6BBE /* LaunchScreen.storyboard in Resources */,
+				037045B61E26109700FE6BBE /* candleOn.jpeg in Resources */,
 				037045A91E25E12600FE6BBE /* Assets.xcassets in Resources */,
 				037045A71E25E12600FE6BBE /* Main.storyboard in Resources */,
 			);
