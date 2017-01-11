@@ -24,15 +24,15 @@ class ViewController: UIViewController {
     @IBAction func buttonTouched(_ sender: Any) {
         print("buttonTouched")
         let button = sender as! UIButton
-        button.setTitle("Touched", for : .normal)
-        button.setTitle("Clicked", for : .highlighted)
-        button.backgroundColor = UIColor.clear
-        
+     //   button.setTitle("Touched", for : .normal)
+     //   button.setTitle("Clicked", for : .highlighted)
+        button.backgroundColor = UIColor.black
+        button.setTitleColor(UIColor.black, for: .highlighted)
         titleLabel.backgroundColor = UIColor.white
         titleLabel.text = "Changed"
        
         candleImage.image = UIImage(named: "candleOn.jpeg")
-        button.setImage(candleImage.image, for: .normal)
+ 
         
         
     }
