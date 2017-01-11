@@ -63,10 +63,19 @@ catch let error as NSError {
 }
 print(result)
 
+// value types reference : struct에서 참조할때 -> inout
 
+let origin = CGPoint(x: 0, y: 0)
+var other = origin
+other.x += 10
+var another = origin
+another.y += 5
 
+func add3 (pointA : inout CGPoint ) {
+    pointA.x += 3
+}
 
-
-
+add3(pointA : &other)
+print(other)
 
 

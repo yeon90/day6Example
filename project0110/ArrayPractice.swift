@@ -107,6 +107,10 @@ return resultArray1
     
     }
 
+//    func makeMagicSquare(row:Int) -> Array<Array<Int>> {
+//        var resultArray = Array<Array<Int>>()
+//        for
+//    }
 }
 
 
