@@ -45,6 +45,27 @@ print()
 
 myArray.printArray(array: myArray.setBoolArray(lines :7), newChar: "$")
 
+print()
+
+
+let fileM = FileManager()
+var result : [String] = []
+
+print(try fileM.contentsOfDirectory(atPath: "/Library/Desktop Pictures"))
+
+// 변수에 담아서 하는 연습! - 나중에 찾을때 result로 찾을 수 있음
+
+do {
+result = try fileM.contentsOfDirectory(atPath: "/Library/Desktop Pictures")
+}
+catch let error as NSError {
+    print(error)
+}
+print(result)
+
+
+
+
 
 
 
