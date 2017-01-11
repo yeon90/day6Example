@@ -36,5 +36,18 @@ class ViewController: UIViewController {
 
     }
     
+    @IBOutlet weak var inputL: UITextField!
+    @IBOutlet weak var resultL: UILabel!
+    
+    @IBAction func convertL(_ sender: Any) {
+    var inputLA = Double(inputL.text!)
+        var meterA = Measurement(value: inputLA!, unit: UnitLength.meters)
+        
+        meterA.convert(to: UnitLength.miles)
+        
+        resultL.text = String(meterA.value)
+        
+    }
+    
   
 }
